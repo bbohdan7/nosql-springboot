@@ -16,7 +16,7 @@ class StudentRedisService {
 
     @PostConstruct
     fun init(): Unit {
-        this@StudentRedisService.seedingHash(5)
+        seedingHash(5)
         println("Trying to fetch all of the Students from Redis storage...")
         comp.findAll().forEach(System.out::println)
     }
