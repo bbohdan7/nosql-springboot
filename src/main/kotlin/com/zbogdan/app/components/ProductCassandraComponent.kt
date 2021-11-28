@@ -12,4 +12,6 @@ class ProductCassandraComponent {
     private lateinit var repo: ProductCassandraRepo
 
     fun findAll(): List<Product> = repo.findAll()
+    fun findByName(name: String): List<Product> = repo.findByName(name)
+    fun create(product: Product): Product = repo.save(product)
 }

@@ -1,5 +1,6 @@
 package com.zbogdan.app.models.cassandra
 
+import org.springframework.data.cassandra.core.mapping.Column
 import org.springframework.data.cassandra.core.mapping.PrimaryKey
 import org.springframework.data.cassandra.core.mapping.Table
 import java.util.*
@@ -8,8 +9,15 @@ import java.util.*
 data class Product(
 
     @PrimaryKey
+    @Column("id")
     var id: Int?,
+
+    @Column("name")
     var name: String?,
+
+    @Column("price")
     var price: Float?,
+
+    @Column("created_at")
     var createdAt: Date?
 )
