@@ -1,4 +1,4 @@
-package com.zbogdan.app.appchik.components
+package com.zbogdan.app.components
 
 import org.springframework.stereotype.Component
 import javax.annotation.PostConstruct

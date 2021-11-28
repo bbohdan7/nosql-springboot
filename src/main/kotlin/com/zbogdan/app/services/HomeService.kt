@@ -1,6 +1,6 @@
-package com.zbogdan.app.appchik.services
+package com.zbogdan.app.services
 
-import com.zbogdan.app.appchik.components.HomeComponent
+import com.zbogdan.app.components.HomeComponent
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import javax.annotation.PostConstruct

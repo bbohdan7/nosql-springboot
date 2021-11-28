@@ -1,7 +1,7 @@
-package com.zbogdan.app.appchik.components
+package com.zbogdan.app.components
 
-import com.zbogdan.app.appchik.models.cassandra.Product
-import com.zbogdan.app.appchik.repos.ProductCassandraRepo
+import com.zbogdan.app.models.cassandra.Product
+import com.zbogdan.app.repos.ProductCassandraRepo
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 

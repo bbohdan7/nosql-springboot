@@ -1,7 +1,7 @@
-package com.zbogdan.app.appchik.components
+package com.zbogdan.app.components
 
-import com.zbogdan.app.appchik.models.mongo.Product
-import com.zbogdan.app.appchik.repos.ProductMongoRepo
+import com.zbogdan.app.models.mongo.Product
+import com.zbogdan.app.repos.ProductMongoRepo
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 

@@ -1,6 +1,6 @@
-package com.zbogdan.app.appchik.repos
+package com.zbogdan.app.repos
 
-import com.zbogdan.app.appchik.models.cassandra.Product
+import com.zbogdan.app.models.cassandra.Product
 import org.springframework.data.cassandra.repository.CassandraRepository
 import org.springframework.stereotype.Repository
 

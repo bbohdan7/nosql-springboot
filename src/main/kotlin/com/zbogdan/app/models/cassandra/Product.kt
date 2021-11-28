@@ -1,4 +1,4 @@
-package com.zbogdan.app.appchik.models.cassandra
+package com.zbogdan.app.models.cassandra
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey
 import org.springframework.data.cassandra.core.mapping.Table

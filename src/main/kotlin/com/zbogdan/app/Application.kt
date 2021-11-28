@@ -1,11 +1,11 @@
-package com.zbogdan.app.appchik
+package com.zbogdan.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class AppchikApplication
+class Application
 
 fun main(args: Array<String>) {
-    runApplication<AppchikApplication>(*args)
+    runApplication<Application>(*args)
 }

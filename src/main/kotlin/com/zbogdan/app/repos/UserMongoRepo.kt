@@ -1,6 +1,6 @@
-package com.zbogdan.app.appchik.repos
+package com.zbogdan.app.repos
 
-import com.zbogdan.app.appchik.models.mongo.User
+import com.zbogdan.app.models.mongo.User
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.stereotype.Repository
 

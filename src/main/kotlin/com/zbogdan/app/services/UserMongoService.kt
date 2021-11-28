@@ -1,8 +1,8 @@
-package com.zbogdan.app.appchik.services
+package com.zbogdan.app.services
 
 import com.github.javafaker.Faker
-import com.zbogdan.app.appchik.components.UserMongoComponent
-import com.zbogdan.app.appchik.models.mongo.User
+import com.zbogdan.app.components.UserMongoComponent
+import com.zbogdan.app.models.mongo.User
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

@@ -1,11 +1,11 @@
-package com.zbogdan.app.appchik
+package com.zbogdan.app
 
 import kotlinx.coroutines.*
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class AppchikApplicationTests {
+class ApplicationTests {
 
     suspend fun printMessage(): Unit = coroutineScope {
         launch {

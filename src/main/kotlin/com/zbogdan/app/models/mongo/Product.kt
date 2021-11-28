@@ -1,4 +1,4 @@
-package com.zbogdan.app.appchik.models.mongo
+package com.zbogdan.app.models.mongo
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
