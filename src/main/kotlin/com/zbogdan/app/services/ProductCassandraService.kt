@@ -24,7 +24,7 @@ class ProductCassandraService {
 
         println("Trying to create new Product")
 
-        val product = comp.create(Product(id = 4, name = "Huawei P20 Smart 2020", price = 799f, createdAt = Date()))
+        val product = comp.create(Product(5, "Google Pixel 2021", 899f, Date()))
         println("Created: $product")
     }
 }

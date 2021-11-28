@@ -19,5 +19,5 @@ data class Product(
     var price: Float?,
 
     @Column("created_at")
-    var createdAt: Date?
+    var created_At: Date?
 )
