@@ -44,5 +44,8 @@ Here I have to say a few words about each of databases:
 * MySQL is a relational database management system for all the cases every programming could imagine. Very simple to
   learn due to low threshold. In my investigation it's turned out the most performant in any cases.
 
+So, if we don't feel that we are really in need of using NoSQL databases I would recommend just keep going to use an old
+good MySQL one.
+
 P.S. This project is my personal investigation, and I don't to challenge this one to be the last word. As I've mentioned
 earlier, I could deploy and set up my environment in incorrect way.   
