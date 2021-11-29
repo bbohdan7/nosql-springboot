@@ -21,3 +21,9 @@ spring:
     username: admin
     password: admin_123
     connection-string: "192.168.0.144:11210"
+  datasource:
+    url: "jdbc:mysql://192.168.0.139:3306/nbu"
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+

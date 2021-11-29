@@ -1,9 +1,6 @@
 package com.zbogdan.app
 
-import com.zbogdan.app.services.ProductCassandraService
-import com.zbogdan.app.services.ProductCouchbaseService
-import com.zbogdan.app.services.ProductMongoService
-import com.zbogdan.app.services.StudentRedisService
+import com.zbogdan.app.services.*
 import kotlinx.coroutines.*
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
@@ -53,12 +50,17 @@ class ApplicationTests {
     @Autowired
     private lateinit var mongoService: ProductMongoService
 
+    @Autowired
+    private lateinit var mysqlService: ProductMysqlService
+
     @Test
     fun testRedis(): Unit {
 //        redisService.fetchAll().forEach(System.out::println)
 //        couchbaseService.fetchAll().forEach(System.out::println)
-        cassandraService.fetchAll().forEach(System.out::println)
+//        cassandraService.fetchAll().forEach(System.out::println)
 //        mongoService.fetchByLike("^Sm", 0.03f, false).forEach(System.out::println)
+//        mysqlService.seedingMysql(5000)
+        mysqlService.fetchAll().forEach(System.out::println)
     }
 
 }

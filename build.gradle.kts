@@ -28,7 +28,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-cassandra:2.5.6")
     implementation("org.springframework.boot:spring-boot-starter-data-redis:2.5.6")
     implementation("org.springframework.boot:spring-boot-starter-data-couchbase:2.5.6")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("com.github.javafaker:javafaker:1.0.2")
+    implementation("mysql:mysql-connector-java:8.0.25")
     testImplementation("org.springframework.boot:spring-boot-starter-test:2.5.6")
     testImplementation("org.springframework.security:spring-security-test:5.5.1")
 }
