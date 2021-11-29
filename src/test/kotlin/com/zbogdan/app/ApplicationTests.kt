@@ -57,10 +57,8 @@ class ApplicationTests {
     fun testRedis(): Unit {
 //        redisService.fetchAll().forEach(System.out::println)
 //        couchbaseService.fetchAll().forEach(System.out::println)
-//        cassandraService.fetchAll().forEach(System.out::println)
-        mongoService.fetchByLike("^Sm", 0.03f, false).forEach(System.out::println)
-
-        val end: Long = System.currentTimeMillis()
+        cassandraService.fetchAll().forEach(System.out::println)
+//        mongoService.fetchByLike("^Sm", 0.03f, false).forEach(System.out::println)
     }
 
 }

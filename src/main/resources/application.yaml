@@ -9,6 +9,8 @@ spring:
       keyspace-name: bogdan
       contact-points: 192.168.0.142
       local-datacenter: "datacenter1"
+      username: cassandra
+      password: cassandra
     couchbase:
       bucket-name: hello
       auto-index: true
