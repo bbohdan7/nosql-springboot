@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository
 
 @Repository
 interface ProductMongoRepo : MongoRepository<Product, String> {
+    fun findByAvailable(available: Boolean): List<Product>
 }

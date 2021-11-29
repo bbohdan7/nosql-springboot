@@ -11,7 +11,6 @@ class HomeService {
     @Autowired
     private lateinit var homeComponent: HomeComponent
 
-    @PostConstruct
     fun init(): Unit = println("Home Service invoked")
 
     fun home(): String = homeComponent.homePage()
