@@ -4,23 +4,6 @@ spring:
       host: 192.168.0.141
       port: 27017
       database: bogdan
-    cassandra:
-      port: 9042
-      keyspace-name: bogdan
-      contact-points: 192.168.0.142
-      local-datacenter: "datacenter1"
-      username: cassandra
-      password: cassandra
-    couchbase:
-      bucket-name: hello
-      auto-index: true
-  redis:
-    host: 192.168.0.143
-    port: 6379
-  couchbase:
-    username: admin
-    password: admin_123
-    connection-string: "192.168.0.144:11210"
   datasource:
     url: "jdbc:mysql://192.168.0.139:3306/nbu"
     username: root
